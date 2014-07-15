@@ -13,7 +13,21 @@
 
   </header>
   <body>
-    <div class="container text-center"><h1>Gaza July-2014 war statistics <small>(updated daily)</small></h1></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=914513461908684&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="container text-center">
+      <h1>
+        Gaza July-2014 war statistics <small>(updated daily)</small>
+        <div class="fb-like" data-href="http://maboelnour.github.io/gaza_2014_war" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>    
+      </h1>
+    </div>
     <div class="container well">
       <div class="col-md-7">
         <iframe height=371 width=600 src="http://docs.google.com/spreadsheets/d/1S3m84sJSBNW93nyn_Dom7lXMLx4yroZT2UfPslbvtGs/gviz/chartiframe?oid=1993741949" seamless frameborder=0 scrolling=no></iframe>
