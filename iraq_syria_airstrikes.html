@@ -1,19 +1,71 @@
 <html>
   <head>
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.12/themes/css/cartodb.css" />
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.12/cartodb.js"></script>
+    <script>
+
+      function changeImage(a) {
+        document.getElementById("inf-map").src= "./maps/inf-maps/"+a+".png";
+      }
+      // get the viz.json url from the CartoDB Editor
+      // - click on visualize
+      // - create new visualization
+      // - make visualization public
+      // - click on publish
+      // - go to API tab
+
+      window.onload = function() {
+        cartodb.createVis('map', ' http://maboelnour.cartodb.com/api/v2/viz/4db1d580-d585-11e4-a1bf-0e4fddd5de28/viz.json').done(function(vis, layers) {
+            layers[2].on('change:time', function(time) {
+              // console.log(time.time);
+              var date = new Date(time.time);
+              var day = date.getDate();
+              var monthIndex = date.getMonth()+1;
+              changeImage(day+"-"+monthIndex);
+            });
+
+          })
+          .error(function(err) {
+            console.log(err);
+          });
+      }
+
+      
+    </script>
+    
+
+
     <style type="text/css">
-    h2{
-      text-align:center;
-      vertical-align:middle;
-    }
+      h2{
+        text-align:center;
+        vertical-align:middle;
+      }
+      .wrapper{
+        text-align:center;
+      }
+      #map{
+        width:49%;
+        height:520;
+        float: left;
+      }
+      #inf-map{
+        float: right;
+        width: 49%;
+        height: 520;
+      }
     </style>
   </head>
   <body>
-    <div>
-      <iframe width='49%' height='520' frameborder='0' src='http://maboelnour.cartodb.com/viz/4db1d580-d585-11e4-a1bf-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-         
-      <img width='49%' height='520' alt="Syria and Iraq 2014-onward War map" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Syria_and_Iraq_2014-onward_War_map.png/1280px-Syria_and_Iraq_2014-onward_War_map.png"/>
+    <div class="wrapper">
+      <div id="map"></div>
+      <a title="By Haghal Jagul [CC0], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ASyria_and_Iraq_2014-onward_War_map.png"><img id="inf-map" alt="Syria and Iraq 2014-onward War map" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Syria_and_Iraq_2014-onward_War_map.png/1280px-Syria_and_Iraq_2014-onward_War_map.png"/></a>
     </div>
+
     <p><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</h2></p>
+
+
+    <script type="text/javascript">
+      // $('.cartodb-timeslider ul li.time').on("Change", console.log("hi"));
+    </script>
   </body>
 </html>
-
