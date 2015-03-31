@@ -5,8 +5,8 @@
     <script>
 
       function changeImage(a) {
-        //document.getElementById("inf-map").src= "./maps/inf-maps/"+a+".png";
-        console.log(document.getElementById("inf-map").src);
+        document.getElementById("inf-map").src= "./maps/inf-maps/"+a+".png";
+        // console.log(a);
       }
       // get the viz.json url from the CartoDB Editor
       // - click on visualize
@@ -16,13 +16,13 @@
       // - go to API tab
 
       window.onload = function() {
-        cartodb.createVis('map', ' http://maboelnour.cartodb.com/api/v2/viz/4db1d580-d585-11e4-a1bf-0e4fddd5de28/viz.json').done(function(vis, layers) {
+        cartodb.createVis('map', ' http://maboelnour.cartodb.com/api/v2/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/viz.json').done(function(vis, layers) {
             layers[2].on('change:time', function(time) {
               // console.log(time.time);
               var date = new Date(time.time);
               var day = date.getDate();
               var monthIndex = date.getMonth()+1;
-              changeImage(day+"-"+monthIndex);
+              // changeImage(day+"-"+monthIndex);
             });
 
           })
@@ -34,8 +34,6 @@
       
     </script>
     
-
-
     <style type="text/css">
       h2{
         text-align:center;
@@ -59,7 +57,7 @@
   <body>
     <div class="wrapper">
       <div id="map"></div>
-      <a title="By Haghal Jagul [CC0], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ASyria_and_Iraq_2014-onward_War_map.png"><img id="inf-map" alt="Syria and Iraq 2014-onward War map" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Syria_and_Iraq_2014-onward_War_map.png/1280px-Syria_and_Iraq_2014-onward_War_map.png"/></a>
+      <img id="inf-map" alt="Syria and Iraq 2014-onward War map" src="./maps/inf-maps/1-3.png"/>
     </div>
 
     <p><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</h2></p>
