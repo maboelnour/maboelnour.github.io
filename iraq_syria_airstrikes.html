@@ -2,11 +2,14 @@
   <head>
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.12/themes/css/cartodb.css" />
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.12/cartodb.js"></script>
+    <script src="./maps/inf-maps/maps_index.json"></script>
     <script>
 
       function changeImage(a) {
-        document.getElementById("inf-map").src= "./maps/inf-maps/"+a+".png";
-        // console.log(a);
+        map = document.getElementById("inf-map")
+        if(map.src != "./maps/inf-maps/"+maps_index[a]+".png"){
+          map.src= "./maps/inf-maps/"+maps_index[a]+".png";
+        }
       }
       // get the viz.json url from the CartoDB Editor
       // - click on visualize
@@ -22,7 +25,8 @@
               var date = new Date(time.time);
               var day = date.getDate();
               var monthIndex = date.getMonth()+1;
-              // changeImage(day+"-"+monthIndex);
+              var year = date.getYear()-100;
+              changeImage(day+"-"+monthIndex+"-"+year);
             });
 
           })
