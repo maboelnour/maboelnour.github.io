@@ -11,15 +11,21 @@
           map.src= "./maps/inf-maps/"+maps_index[a]+".png";
         }
       }
-      // get the viz.json url from the CartoDB Editor
-      // - click on visualize
-      // - create new visualization
-      // - make visualization public
-      // - click on publish
-      // - go to API tab
-
+      
       window.onload = function() {
-        cartodb.createVis('map', ' http://maboelnour.cartodb.com/api/v2/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/viz.json').done(function(vis, layers) {
+        cartodb.createVis('map', ' http://maboelnour.cartodb.com/api/v2/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/viz.json', {scrollwheel: 'disabled'}).done(function(vis, layers) {
+
+            //==============================================
+            vis.getNativeMap().doubleClickZoom.disable();
+            vis.getNativeMap().dragging.disable();
+            //==============================================
+
+            //==============================================
+            var inf_map = "<img id=\"inf-map\" alt=\"Syria and Iraq 2014-onward War map\" src=\"./maps/inf-maps/31-12-14.png\"/>"
+            $('.cartodb-map-wrapper').prepend(inf_map);
+            //==============================================
+
+            //==============================================
             layers[2].on('change:time', function(time) {
               // console.log(time.time);
               var date = new Date(time.time);
@@ -28,15 +34,24 @@
               var year = date.getYear()-100;
               changeImage(day+"-"+monthIndex+"-"+year);
             });
-            layers[0].setOpacity(0);
+            //==============================================
 
+            //==============================================
+            layers[0].setOpacity(0);
+            //==============================================
+
+            //==============================================
             element = document.getElementsByClassName("cartodb-timeslider")[0]
             element.style.bottom =  "-95px";
             element.style.left =  "85px";
+            //==============================================
+
           })
           .error(function(err) {
             console.log(err);
           });
+
+
       }
 
       
@@ -56,7 +71,6 @@
         float: left;
         position: absolute;
         right: 10px;
-        opacity: 0.6;
         z-index: 1;
       }
       #inf-map{
@@ -75,7 +89,6 @@
   <body>
     <div class="wrapper">
       <div id="map"></div>
-      <img id="inf-map" alt="Syria and Iraq 2014-onward War map" src="./maps/inf-maps/31-12-14.png"/>
     </div>
 
     <p><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</h2></p>
