@@ -28,7 +28,11 @@
               var year = date.getYear()-100;
               changeImage(day+"-"+monthIndex+"-"+year);
             });
+            layers[0].setOpacity(0);
 
+            element = document.getElementsByClassName("cartodb-timeslider")[0]
+            element.style.bottom =  "-95px";
+            element.style.left =  "85px";
           })
           .error(function(err) {
             console.log(err);
@@ -63,6 +67,9 @@
         right: 10px;
         z-index: 0;
       }
+      .cartodb-map-wrapper{
+        overflow: visible;
+      }
     </style>
   </head>
   <body>
@@ -73,9 +80,5 @@
 
     <p><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</h2></p>
 
-
-    <script type="text/javascript">
-      // $('.cartodb-timeslider ul li.time').on("Change", console.log("hi"));
-    </script>
   </body>
 </html>
