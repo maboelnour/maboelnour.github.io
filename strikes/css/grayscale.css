@@ -147,8 +147,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(http://upload.wikimedia.org/wikipedia/commons/f/fe/FA-18_launch_during_Inherent_Resolve.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../img/background.jpg) no-repeat bottom center scroll;
+    background-color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -223,6 +223,17 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
+.start-arrow i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -281,7 +292,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 50px;
     }
 
     .download-section {
