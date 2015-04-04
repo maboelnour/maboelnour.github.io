@@ -223,6 +223,12 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
+.side-arrow{
+
+    position: absolute;
+    right: -200px;
+    bottom: 20px;
+}
 .start-arrow i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
