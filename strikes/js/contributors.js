@@ -124,7 +124,7 @@ $(function(){
     },
     map: 'world_mill_en',
     container: $('#fighting_map'),
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#D9D9D9",
     regionStyle: {
       initial: { fill: "#7C96A1" },
       hover: { fill: "#A0D1DC" }
@@ -157,7 +157,7 @@ $(function(){
     // },
     map: 'world_mill_en',
     container: $('#support_map'),
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#D9D9D9",
     regionStyle: {
       initial: { fill: "#7C96A1" },
       hover: { fill: "#A0D1DC" }

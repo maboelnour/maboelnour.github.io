@@ -28,6 +28,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="all" href="../strikes/css/jquery-jvectormap.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,8 +56,9 @@
 
     <script src="../strikes/js/jquery-jvectormap-world-mill-en.js"></script>
 
-    <link rel="stylesheet" media="all" href="../strikes/css/jquery-jvectormap.css">
-
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 </head>
 
@@ -142,13 +144,9 @@
 
     <!-- Cities Section -->
     <section id="cities" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <iframe width="900" height="500" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~maboelnour/129/.embed?width=640&height=480" ></iframe>
             </div>
         </div>
     </section>
@@ -157,53 +155,28 @@
     <section id="targets" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+                <div id="targets-container" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>  
             </div>
         </div>
     </section>
 
     <!-- Influence Section -->
     <section id="influence" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
+         <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                
             </div>
         </div>
     </section>
 
     <!-- Civilians Section -->
     <section id="civilians" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
+         <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                
             </div>
         </div>
     </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
 
     <!-- Footer -->
     <footer>
@@ -214,6 +187,7 @@
 
     
     <script src="js/contributors.js"></script>
+    <script src="js/targets.js"></script>
 </body>
 
 </html>
