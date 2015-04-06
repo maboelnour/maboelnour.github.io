@@ -44,11 +44,11 @@ $(function () {
                 },
                 labels: {
                     formatter: function () {
-                        return (Math.abs(this.value) / 1000000) + 'M';
+                        return Math.abs(this.value) ; /// 1000000) + 'M';
                     }
                 },
                 min: -400,
-                max: 300
+                max: 400
             },
 
             plotOptions: {
