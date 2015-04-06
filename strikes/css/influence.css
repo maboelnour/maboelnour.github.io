@@ -1,0 +1,22 @@
+.wrapper{
+  /*text-align:center;*/
+}
+#cartodb-inf-map {
+  width: 634px;
+  height: 520;
+  float: left;
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+}
+#inf-map{
+  width: 634px;
+  height: 522px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+}
+.cartodb-map-wrapper{
+  overflow: visible;
+}
