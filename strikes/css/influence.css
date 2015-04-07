@@ -53,6 +53,18 @@
   top: 3px;
 }
 
+.legends li .region-1 {
+  background-color: #ebab73;
+}
+
+.legends li .region-2 {
+  background-color: #60b160;
+}
+
+.legends li .region-3 {
+  background-color: #5793bf;
+}
+
 .legends li .circle {
   border-radius: 50%;
   top: 6px;
