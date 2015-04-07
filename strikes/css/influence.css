@@ -4,19 +4,136 @@
 #cartodb-inf-map {
   width: 634px;
   height: 520;
+  background-color: #fff;
   float: left;
-  position: absolute;
-  right: 10px;
-  z-index: 1;
 }
 #inf-map{
   width: 634px;
   height: 522px;
-  float: right;
-  position: absolute;
-  right: 10px;
-  z-index: 0;
+  background-color: #fff;
+  float: left;
 }
 .cartodb-map-wrapper{
   overflow: visible;
 }
+
+/* Global Styles */
+
+.fa-angle-double-down {
+  line-height: 56px;
+}
+
+.description {
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.legends {
+  list-style-type: none;
+  text-align: left;
+  padding: 30px 0;
+  border-top: 1px solid #333;
+}
+
+.legends li {
+  line-height: 20px;
+}
+
+.legends li span {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ccc;
+  background-color: #666;
+  margin: 0 5px 0 0;
+  position: relative;
+  top: 3px;
+}
+
+.legends li .circle {
+  border-radius: 50%;
+  top: 6px;
+  height: 22px;
+  width: 22px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #60B160),
+    color-stop(1, #5795BF)
+  );
+  background-image: -o-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
+  background-image: -moz-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
+  background-image: -webkit-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
+  background-image: -ms-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
+  background-image: linear-gradient(to bottom, #60B160 0%, #5795BF 100%);
+}
+
+.side-arrow {
+  position: absolute;
+  left: 110px;
+  bottom: -130px;
+}
+
+ /*jQuery Radio Buttons */
+
+/*div.jquery-radiobutton-wrapper a.jquery-radiobutton {
+  background: transparent url('../img/radiobutton.png') repeat scroll 0px 0px;
+  display: block;
+  width: 21px;
+  height: 21px;
+  cursor: default;
+  outline: none;
+}
+
+div.jquery-radiobutton-wrapper a.jquery-radiobutton-on {
+  background-position: 21px 0px;
+}*/
+
+/* Contributors Section */
+
+#fighting_map,
+#support_map {
+  height: 520px;
+  width: 800px;
+  float: left;
+}
+
+.switch-maps {
+  position: absolute;
+  left: 30px;
+  text-align: left;
+  bottom: 10px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.switch-maps label {
+  float: left;
+  clear: both;
+}
+
+.switch-maps input {
+  margin: 0 10px;
+}
+
+/* Targets Section */
+
+#targets-container {
+  margin: 0 !important;
+}
+
+/* Footer Styles */
+footer {
+  font-size: 14px;
+  margin-top: 130px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}
+
