@@ -16,7 +16,9 @@
 .cartodb-map-wrapper{
   overflow: visible;
 }
-
+.cartodb-logo{
+  z-index: 0 !important;
+}
 /* Global Styles */
 
 .fa-angle-double-down {
