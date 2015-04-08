@@ -2,6 +2,9 @@ function fighting_map(){
   if ($("#support_map").is(":visible")){
       $("#support_map").hide();
       $("#fighting_map").show();
+      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>Intervening in Iraq & Syria.";
+      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>Intervening in Iraq only."
+      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>Intervening in Syria only."
     }
   };
 
@@ -9,6 +12,10 @@ function fighting_map(){
     if ($("#fighting_map").is(":visible")){
       $("#support_map").show();
       $("#fighting_map").hide();
+      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>Military aid."
+      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>Humanitarian aid."
+      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>Intelligence aid."
+
     }
   };
 
