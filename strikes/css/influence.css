@@ -52,7 +52,7 @@
 .legends {
   list-style-type: none;
   text-align: left;
-  padding: 30px 0;
+  padding: 30px 5px;
   border-top: 1px solid #333;
 }
 
@@ -81,6 +81,53 @@
 
 .legends li .region-3 {
   background-color: #5793bf;
+}
+
+.legends li .rebels_legend {
+  background-color: #cae7c4;
+}
+
+.legends li .syrian_gv_legend {
+  background-color: #ebc0b3;
+}
+
+.legends li .iraq_gv_legend {
+  background-color: #cc829b;
+}
+
+.legends li .isil_legend {
+  background-color: #b3b2ae;
+}
+
+.legends li .nusra_legend {
+  background-color: #fff7fd;
+}
+
+.legends li .syrian_kr_legend {
+  background-color: #e2d974;
+}
+
+.legends li .iraq_kr_legend {
+  background-color: #d7e074;
+}
+
+.legends li .strike_circle {
+  border-radius: 50%;
+  border-color: #FFF;
+  top: 6px;
+  height: 20px;
+  width: 20px;
+  background-color: #FF6600;
+}
+
+
+.legends li .city_circle {
+  border-radius: 50%;
+  border-color: #004A7A;
+  top: 6px;
+  height: 20px;
+  width: 20px;
+  background-color: #004A7A;
 }
 
 .legends li .circle {

@@ -15,7 +15,7 @@ window.onload = function() {
     //==============================================
 
     //==============================================
-    var inf_map = "<img id=\"inf-map\" alt=\"Syria and Iraq 2014-onward War map\" src=\"./maps/inf-maps/31-12-14.png\"/>"
+    var inf_map = "<img id=\"inf-map\" alt=\"Syria and Iraq 2014-onward War map\" src=\"./maps/inf-maps/26-9-14.png\"/>"
     $('.cartodb-map-wrapper').prepend(inf_map);
     //==============================================
 
