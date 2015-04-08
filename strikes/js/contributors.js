@@ -132,9 +132,9 @@ $(function(){
     series: {
       regions: [{
         scale: {
-          '1': '#322EB8',
-          '2': '#D41919',
-          '3': '#45B82E'
+          '1': '#EBAB73',
+          '2': '#60B160',
+          '3': '#5793BF'
         },
         attribute: 'fill',
         values: fighting
@@ -165,9 +165,9 @@ $(function(){
     series: {
       regions: [{
         scale: {
-          '1': '#322EB8',
-          '2': '#D41919',
-          '3': '#45B82E'
+          '1': '#EBAB73',
+          '2': '#60B160',
+          '3': '#5793BF'
         },
         attribute: 'fill',
         values: support
