@@ -6,7 +6,7 @@ function changeImage(a) {
 }
 
 window.onload = function() {
-  cartodb.createVis('cartodb-inf-map', ' http://maboelnour.cartodb.com/api/v2/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/viz.json', {scrollwheel: 'disabled'}).done(function(vis, layers) {
+  cartodb.createVis('cartodb-inf-map', ' https://maboelnour.cartodb.com/api/v2/viz/8c763a06-dde4-11e4-a22c-0e853d047bba/viz.json', {scrollwheel: 'disabled'}).done(function(vis, layers) {
 
     //==============================================
     vis.getNativeMap().doubleClickZoom.disable();
