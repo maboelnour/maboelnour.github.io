@@ -1,3 +1,13 @@
+ /*Layout Global */
+ *,
+ html {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+ .row {
+  height: 100%; /*To make section takes over window viewport*/
+ }
+
 .wrapper{
   /*text-align:center;*/
 }
@@ -28,9 +38,14 @@
   line-height: 56px;
 }
 
+.side-description {
+  background: rgba(66, 66, 66, 0.2);
+  padding: 20px 10px;
+}
+
 .description {
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -108,6 +123,21 @@ div.jquery-radiobutton-wrapper a.jquery-radiobutton-on {
   background-position: 21px 0px;
 }*/
 
+/* Social Profiles */
+.social-profiles {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  width: 100px;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.social-profiles .fb-share-button {
+  margin-top: 10px;
+}
+
 /* Contributors Section */
 
 #fighting_map,
@@ -141,10 +171,26 @@ div.jquery-radiobutton-wrapper a.jquery-radiobutton-on {
   margin: 0 !important;
 }
 
+/* Civilians */
+.civilians-infograph {
+  text-align: left;
+}
+
 /* Footer Styles */
 footer {
   font-size: 14px;
-  margin-top: 130px;
+  border-top: 1px solid #666;
+}
+
+footer .row {
+  height: auto;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: square;
 }
 
 .copyright {
@@ -153,4 +199,3 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
-
