@@ -71,13 +71,25 @@
             
         });*/
     </script>
-    
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
 
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=304443666261755";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -88,6 +100,9 @@
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <i class="fa fa-play-circle"></i>  <span class="light">The Strikes</span> 
                 </a>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="maboelnour">Tweet</a>
+
+                <div class="fb-share-button" data-href="https://maboelnour.github.io/strikes/index" data-layout="button_count"></div>            
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,13 +116,13 @@
                         <a class="page-scroll" href="#contributors">Contributors</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#influence">Influence</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#cities">Cities</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#targets">Targets</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#influence">Influence</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#civilians">Civilians</a>
@@ -152,7 +167,7 @@
                         <li><span class="region-3"></span>Code</li>
                     </ul>
 
-                    <a href="#cities" class="btn btn-circle page-scroll side-arrow">
+                    <a href="#influence" class="btn btn-circle page-scroll side-arrow">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
@@ -172,6 +187,34 @@
                     </div>
 
         
+                </div>
+            </div>
+        </section>
+
+        <!-- Influence Section -->
+        <section id="influence" class="content-section text-center">
+             <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                    <ul class="legends">
+                        <li><span class="region-1"></span>Code</li>
+                        <li><span class="region-2"></span>Code</li>
+                        <li><span class="region-3"></span>Code</li>
+                    </ul>
+
+                    <a href="#cities" class="btn btn-circle page-scroll side-arrow">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-md-9">
+                    <div class="wrapper">
+                      <div id="cartodb-inf-map"></div>
+                      <!-- <iframe id="map-iframe" width='100%' height='520' frameborder='0' src='http://maboelnour.cartodb.com/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -215,7 +258,7 @@
                         <li><span class="region-3"></span>Code</li>
                     </ul>
 
-                    <a href="#influence" class="btn btn-circle page-scroll side-arrow">
+                    <a href="#civilians" class="btn btn-circle page-scroll side-arrow">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
@@ -224,35 +267,7 @@
                     <div id="targets-container" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>  
                 </div>
             </div>
-        </section>
-
-        <!-- Influence Section -->
-        <section id="influence" class="content-section text-center">
-             <div class="row">
-                <div class="col-xs-12 col-md-3">
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <ul class="legends">
-                        <li><span class="region-1"></span>Code</li>
-                        <li><span class="region-2"></span>Code</li>
-                        <li><span class="region-3"></span>Code</li>
-                    </ul>
-
-                    <a href="#civilians" class="btn btn-circle page-scroll side-arrow">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-md-9">
-                    <div class="wrapper">
-                      <div id="cartodb-inf-map"></div>
-                      <!-- <iframe id="map-iframe" width='100%' height='520' frameborder='0' src='http://maboelnour.cartodb.com/viz/711f44e6-d790-11e4-85aa-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
-                    </div>
-                </div>
-            </div>
-        </section>
+        </section>        
 
         <!-- Civilians Section -->
         <section id="civilians" class="row content-section text-center">
@@ -282,11 +297,28 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-md-4 col-xs-12">Section 1</div>
-                <div class="col-md-4 col-xs-12">Section 2</div>
-                <div class="col-md-4 col-xs-12">Section 3</div>
+                <hr />
+                <div class="col-md-4 col-xs-12">
+                    <p>
+                        <h5>Data Sources:</h5>
+                        <ul>
+                            <li>Strikes Data: <a href="http://www.centcom.mil">CentCom</a> & <a href="http://www.defense.gov">Defense.gov</a></li>
+                            <li>Influence Map: wikipedia map</li>
+                            <li>Civilian Data: <a href="http://www.syriahr.com">Syriahr.com</a></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <p class="copyright">Copyright &copy; maboelnour 2014</p>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <span><h5>Get the Data!</h5></span>
+                    <p>
+                        <p class="description">If you're a data visualisation guru, you can get the full data of this report. The Data is a SQL dump can be exported to json format.<br />The data contains the strikes full data with each target struck status (destroyed, damaged or just struck).<br />You can contact me via <a href="mailto:mhm.aboelnour@gmail.com?Subject=Strikes%20Data" target="_blank">Email</a> or <a href="https://twitter.com/intent/tweet?screen_name=maboelnour" class="twitter-mention-button" data-related="maboelnour">Tweet to @maboelnour</a>
+                        </p>
+                    </p>
+                </div>
             </div>
-            <p class="copyright">Copyright &copy; Your Website 2014</p>
         </footer>
     </div>
 
