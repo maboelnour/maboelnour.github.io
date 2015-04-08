@@ -6,12 +6,15 @@
   height: 520;
   background-color: #fff;
   float: left;
+  overflow: hidden;
+  z-index: 1;
 }
 #inf-map{
   width: 634px;
   height: 522px;
   background-color: #fff;
   float: left;
+  z-index: 0;
 }
 .cartodb-map-wrapper{
   overflow: visible;

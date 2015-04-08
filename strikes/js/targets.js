@@ -1,20 +1,20 @@
 $(function () {
-    var categories = ['Oil Facility',
-        'Artillery Position',
-        'Staging Area',
-        'Heavy Construction Equipment',
-        'Mortar Position',
-        'Tank',
-        'Bunker',
-        'Checkpoint',
-        'Heavy Machine Gun Position',
-        'Large Tactical Unit',
-        'Heavy Construction Equipment',
-        'Armored Vehicle',
-        'Fighting Position',
-        'Building',
-        'Vehicle',
-        'Tactical Unit'];
+    var categories = [
+        "Training Camp",
+        "Command and Control Facility",
+        "Oil Facility",
+        "Tank",
+        "Mortar Position",
+        "Artillery Position",
+        "Staging Area",
+        "Large Tactical Unit",
+        "Heavy Construction Equipment",
+        "Armored Vehicle",
+        "Fighting Position",
+        "Building",
+        "Tactical Unit",
+        "Vehicle"
+];
     $(document).ready(function () {
         $('#targets-container').highcharts({
             chart: {
@@ -47,8 +47,8 @@ $(function () {
                         return Math.abs(this.value) ; /// 1000000) + 'M';
                     }
                 },
-                min: -400,
-                max: 400
+                min: -800,
+                max: 800
             },
 
             plotOptions: {
@@ -66,10 +66,40 @@ $(function () {
 
             series: [{
                 name: 'Syria',
-                data: [-29, -3, -40, -2, -0, -7, -4, -18, -2, -24, -2, -46, -388, -42, -62, -209]
+                data: [
+                    -10,
+                    -12,
+                    -55,
+                    -37,
+                    -6,
+                    -15,
+                    -91,
+                    -40,
+                    -8,
+                    -66,
+                    -792,
+                    -191,
+                    -366,
+                    -185             
+                ]
             }, {
                 name: 'Iraq',
-                data: [0, 10, 12, 71, 23, 2, 25, 25, 33, 65, 71, 73, 107, 151, 231, 237]
+                data: [
+                    5,
+                    5,
+                    5,
+                    10,
+                    47,
+                    35,
+                    41,
+                    115,
+                    160,
+                    185,
+                    236,
+                    325,
+                    571,
+                    646
+                ]
             }]//['artillery_position',
         // 'staging_area',
         // 'heavy_construction_equipment',
