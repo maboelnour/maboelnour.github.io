@@ -49,6 +49,12 @@
   line-height: 20px;
 }
 
+.note {
+  text-align: left;
+  font-size: 11px;
+  line-height: 20px;
+}
+
 .legends {
   list-style-type: none;
   text-align: left;
