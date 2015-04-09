@@ -14,9 +14,13 @@
   }
 }
 
-.wrapper{
-  /*text-align:center;*/
+/* Fix Navigation */
+@media (min-width: 570px) and (max-width: 768px) {
+   .nav > li {
+    float: left;
+  }
 }
+
 #cartodb-inf-map {
   width: 634px;
   height: 520;
@@ -266,6 +270,10 @@ div.cartodb-timeslider .ui-slider .ui-slider-handle {
 /* Civilians */
 .civilians-infograph {
   text-align: left;
+}
+
+.civilians-infograph img {
+  max-width: 100%;
 }
 
 /* Footer Styles */
