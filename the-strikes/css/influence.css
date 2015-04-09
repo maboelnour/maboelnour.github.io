@@ -8,9 +8,19 @@
   height: 100%; /*To make section takes over window viewport*/
  }
 
-.wrapper{
-  /*text-align:center;*/
+@media (max-height: 650px) {
+   .row {
+    height: auto;
+  }
 }
+
+/* Fix Navigation */
+@media (min-width: 570px) and (max-width: 768px) {
+   .nav > li {
+    float: left;
+  }
+}
+
 #cartodb-inf-map {
   width: 634px;
   height: 520;
@@ -170,6 +180,14 @@
   bottom: -130px;
 }
 
+div.cartodb-timeslider a.button:hover {
+  background-position: -2px -55px;
+}
+
+div.cartodb-timeslider a.button.stop:hover {
+  background-position: -2px -4px;
+}
+
  /*jQuery Radio Buttons */
 
 /*div.jquery-radiobutton-wrapper a.jquery-radiobutton {
@@ -233,9 +251,29 @@ div.jquery-radiobutton-wrapper a.jquery-radiobutton-on {
   margin: 0 !important;
 }
 
+/*Influence */
+
+div.cartodb-timeslider ul li.last,
+div.cartodb-timeslider .slider-wrapper,
+div.cartodb-timeslider .slider-wrapper div {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+div.cartodb-timeslider .ui-slider .ui-slider-handle {
+  width: 19px;
+  height: 12px;
+  background-position: -94px -18px;
+}
+
 /* Civilians */
 .civilians-infograph {
   text-align: left;
+}
+
+.civilians-infograph img {
+  max-width: 100%;
 }
 
 /* Footer Styles */
