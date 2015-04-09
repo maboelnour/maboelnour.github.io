@@ -8,6 +8,12 @@
   height: 100%; /*To make section takes over window viewport*/
  }
 
+@media (max-height: 650px) {
+   .row {
+    height: auto;
+  }
+}
+
 .wrapper{
   /*text-align:center;*/
 }
