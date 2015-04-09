@@ -85,30 +85,37 @@
 
 .legends li .rebels_legend {
   background-color: #cae7c4;
+  border-color: #cae7c4;
 }
 
 .legends li .syrian_gv_legend {
   background-color: #ebc0b3;
+  border-color: #ebc0b3;
 }
 
 .legends li .iraq_gv_legend {
   background-color: #cc829b;
+  border-color: #cc829b;
 }
 
 .legends li .isil_legend {
   background-color: #b3b2ae;
+  border-color: #b3b2ae;
 }
 
 .legends li .nusra_legend {
   background-color: #fff7fd;
+  border-color: #fff7fd;
 }
 
 .legends li .syrian_kr_legend {
   background-color: #e2d974;
+  border-color: #e2d974;
 }
 
 .legends li .iraq_kr_legend {
   background-color: #d7e074;
+  border-color: #d7e074;
 }
 
 .legends li .strike_circle {
@@ -135,7 +142,9 @@
   top: 6px;
   height: 22px;
   width: 22px;
-  background-image: -webkit-gradient(
+  background-color: #004A7A;
+  border-color: #004A7A;
+  /*background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
@@ -146,7 +155,7 @@
   background-image: -moz-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
   background-image: -webkit-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
   background-image: -ms-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
-  background-image: linear-gradient(to bottom, #60B160 0%, #5795BF 100%);
+  background-image: linear-gradient(to bottom, #60B160 0%, #5795BF 100%);*/
 }
 
 .side-arrow {
