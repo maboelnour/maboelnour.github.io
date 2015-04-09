@@ -127,7 +127,7 @@ $(function(){
       };
     },
     onRegionClick: function(event, tip, code) {
-     alert("hi");
+     // alert("hi");
     },
     map: 'world_mill_en',
     container: $('#fighting_map'),
