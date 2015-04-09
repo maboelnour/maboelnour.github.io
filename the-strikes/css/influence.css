@@ -148,9 +148,9 @@
   top: 6px;
   height: 22px;
   width: 22px;
-  background-color: #004A7A;
-  border-color: #004A7A;
-  /*background-image: -webkit-gradient(
+  /*background-color: #004A7A;
+  border-color: #004A7A;*/
+  background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
@@ -161,7 +161,7 @@
   background-image: -moz-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
   background-image: -webkit-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
   background-image: -ms-linear-gradient(bottom, #60B160 0%, #5795BF 100%);
-  background-image: linear-gradient(to bottom, #60B160 0%, #5795BF 100%);*/
+  background-image: linear-gradient(to bottom, #60B160 0%, #5795BF 100%);
 }
 
 .side-arrow {
