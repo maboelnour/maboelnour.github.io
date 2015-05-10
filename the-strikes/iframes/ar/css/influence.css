@@ -1,0 +1,97 @@
+#cartodb-inf-map {
+  width: 634px;
+  height: 520;
+  background-color: #fff;
+  float: right;
+  overflow: hidden;
+  z-index: 1;
+}
+#inf-map{
+  width: 634px;
+  height: 522px;
+  background-color: #fff;
+  float: right;
+  z-index: 0;
+}
+
+.legends {
+  position: relative;
+  list-style-type: none;
+  text-align: right;
+  top: 300px;
+  right: 5px;
+
+}
+
+.legends li {
+  line-height: 20px;
+}
+
+.legends li span {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ccc;
+  background-color: #666;
+  margin: 0 5px 0 0;
+}
+.legends li .rebels_legend {
+  background-color: #cae7c4;
+  border-color: #cae7c4;
+  margin: 0 10px;
+}
+
+.legends li .syrian_gv_legend {
+  background-color: #ebc0b3;
+  border-color: #ebc0b3;
+  margin: 0 10px;
+}
+
+.legends li .iraq_gv_legend {
+  background-color: #cc829b;
+  border-color: #cc829b;
+  margin: 0 10px;
+}
+
+.legends li .isil_legend {
+  background-color: #b3b2ae;
+  border-color: #b3b2ae;
+  margin: 0 10px;
+}
+
+.legends li .nusra_legend {
+  background-color: #fff7fd;
+  border-color: #fff7fd;
+  margin: 0 10px;
+}
+
+.legends li .syrian_kr_legend {
+  background-color: #e2d974;
+  border-color: #e2d974;
+  margin: 0 10px;
+}
+
+.legends li .iraq_kr_legend {
+  background-color: #d7e074;
+  border-color: #d7e074;
+  margin: 0 10px;
+}
+
+.legends li .strike_circle {
+  border-radius: 50%;
+  border-color: #FFF;
+  height: 20px;
+  width: 20px;
+  background-color: #FF6600;
+  margin: 0 10px;
+}
+
+
+.legends li .city_circle {
+  border-radius: 50%;
+  border-color: #004A7A;
+  height: 20px;
+  width: 20px;
+  background-color: #004A7A;
+  margin: 0 10px;
+}
