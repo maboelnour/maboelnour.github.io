@@ -40,9 +40,8 @@
 }
 
 .switch-maps {
-  position: absolute;
-  bottom: 50px;
-  left: 730px;
+  position: relative;
+  bottom: 150px;
   text-align: left;
   color: #000;
 }
