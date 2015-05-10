@@ -2,9 +2,9 @@ function fighting_map(){
   if ($("#support_map").is(":visible")){
       $("#support_map").hide();
       $("#fighting_map").show();
-      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>Intervening in Iraq & Syria.";
-      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>Intervening in Iraq only."
-      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>Intervening in Syria only."
+      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>تدخل في العراق وسوريا.";
+      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>تدخل في العراق فقط."
+      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>تدخل في سوريا فقط."
     }
   };
 
@@ -12,9 +12,9 @@ function fighting_map(){
     if ($("#fighting_map").is(":visible")){
       $("#support_map").show();
       $("#fighting_map").hide();
-      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>Military aid."
-      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>Humanitarian aid."
-      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>Intelligence aid."
+      document.getElementById('L-contributor-1').innerHTML="<span class=\"region-1\"></span>مساعدات عسكرية."
+      document.getElementById('L-contributor-2').innerHTML="<span class=\"region-2\"></span>مساعدات إنسانية."
+      document.getElementById('L-contributor-3').innerHTML="<span class=\"region-3\"></span>مساعدات استخباراتية."
 
     }
   };
@@ -89,25 +89,25 @@ var fighting = { // both: 1, iraq:2, syria: 3
 };
 
 var fighting_text = { 
-  "US": "Launch Operation Inherent Resolve",
-  "CA": "-Launch Operation Impact<br />-Strikes with F-18's<br />-Sent special forces advisers",
-  "JO": "Strikes With F-16's",
-  "MA": "Strikes With F-16's",
-  "UK": "Launch Operation Shader<br />-Strikes with Tornado's",
-  "AU": "-Launch Operation Okra<br />-Strikes with F-18's",
-  "BE": "Strikes With F-16's",
-  "FR": "-Launch Opération Chammal<br />-Strikes with Rafale's and Mirage-2000",
-  "DE": "-Sent paratroopers to Iraq to provide weapons training<br />-Sent weapons and ammunition to Iraqi kurds forces",
-  "IT": "Sent Tornado's for reconnaissance and intelligence",
-  "NL": "Strikes With F-16's",
-  "NO": "Sent troops to Iraq to train the Iraqi army",
-  "PT": "Sent troops to Iraq to train the Iraqi army",
-  "ES": "Sent troops to Iraq to train the Iraqi army",
-  "TR": "Sent troops to Iraq to train the Iraqi kurds forces",
-  "BHR": "Strikes With F-16's",
-  "QA": "Strikes With aircrafts",
-  "SA": "Strikes With aircrafts",
-  "AE": "Strikes With F-16's",
+  "US": "إطلاق عملية 'Inherent Resolve'",
+  "CA": "-إطلاق عملية 'Impact'<br />-المشاركة بطائرات أف-18<br />-إرسال مستشارين عسكريين",
+  "JO": "المشاركة بطائرات أف-16",
+  "MA": "المشاركة بطائرات أف-16",
+  "UK": "إطلاق عملية 'Shader'<br />-المشاركة بطائرات تورنادو",
+  "AU": "-إطلاق عملية 'Okra'<br />-المشاركة بطائرات أف-18",
+  "BE": "المشاركة بطائرات أف-16",
+  "FR": "-إطلاق عملية 'Chammal'<br />-المشاركة بطائرات الرافال والميراج-2000",
+  "DE": "-إرسال مظليين للعراق لتوفير تدريب على الأسلحة<br />-إرسال أسلحة وذخيرة للقوات الكردية",
+  "IT": "المشاركة بطائرات تورنادو للاستطلاع و العمليات الاستخباراتية",
+  "NL": "المشاركة بطائرات أف-16",
+  "NO": "إرسال قوات أرضية للعراق للمشاركة في تدريب القوات العراقية",
+  "PT": "إرسال قوات أرضية للعراق للمشاركة في تدريب القوات العراقية",
+  "ES": "إرسال قوات أرضية للعراق للمشاركة في تدريب القوات العراقية",
+  "TR": "إرسال قوات أرضية للعراق للمشاركة في تدريب القوات الكردية",
+  "BHR": "المشاركة بطائرات أف-16",
+  "QA": "المشاركة بمقاتلات حربية",
+  "SA": "المشاركة بمقاتلات حربية",
+  "AE": "المشاركة بطائرات أف-16",
 };
 
 var support = { //1: Military aid, 2:Humanitarian aid, 3:Intelligence aid
@@ -138,37 +138,36 @@ var support = { //1: Military aid, 2:Humanitarian aid, 3:Intelligence aid
 }
 
 var support_text = { 
-  "AL": "Sent weapons and ammunition to Iraqi kurds forces",
-  "BA": "Sent weapons and ammunition to the Iraqi army",
-  "BG": "Sent weapons and ammunition to the Iraqi army",
-  "HR": "Sent weapons and ammunition to Iraqi kurds",
-  "CZ": "Sent fighter jets, weapons and ammunition to the Iraqi army",
-  "EE": "Sent weapons and ammunition to the Iraqi army",
-  "GR": "Sent weapons and ammunition to Iraqi kurds forces",
-  "HU": "Sent weapons and ammunition to the Iraqi army",
-  "KW": "Donated to the United Nations for aid in Iraq",
-  "LB": "Receive military help to fight ISIS through the Army",
-  "RU": "-Exchange of Intelligence Information with US<br />-Sent 10 'Su-25' to the Iraqi Army",
+  "AL": "إرسال أسلحة وذخيرة للقوات الكردية العراقية",
+  "BA": "إرسال أسلحة وذخيرة للجيش العراقي",
+  "BG": "إرسال أسلحة وذخيرة للجيش العراقي",
+  "HR": "إرسال أسلحة وذخيرة للقوات الكردية العراقية",
+  "CZ": "إرسال مقاتلات حربية وأسلحة وذخيرة للجيش العراقي",
+  "EE": "إرسال أسلحة وذخيرة للجيش العراقي",
+  "GR": "إرسال أسلحة وذخيرة للقوات الكردية العراقية",
+  "HU": "إرسال أسلحة وذخيرة للجيش العراقي",
+  "KW": "إرسال مساعدة مالية للأمم المتحدة",
+  "LB": "تلقت مساعدات عسكرية للمشاركة في حالرب ضد داعش من خلال الجيش اللبناني",
+  "RU": "-تبادل معلومات إستخباراتية مع الولايات المتحدة<br />-إرسال 10 طائرات 'سو-25' للجيش العراقي",
   "SGP": "",
-  "DK": "Sent emergency aid to Iraq",
-  "AT": "Provided aid to Iraqi Government",
-  "IE": "Provided aid to Iraqi Government",
-  "JP": "Provided aid to Iraqi Government",
-  "LU": "Step up humanitarian assistance for the Iraqi people",
-  "PL": "Sent aid for Iraqi refugees",
-  "SK": "Sent aid for Iraqi refugees",
-  "KR": "Sent aid for Iraqi refugees",
-  "SE": "Donated aid to Iraqi Government",
-  "SZ": "Donated aid to Iraqi Government",
-  "NZ": "Donated aid to Iraqi Government",        
-  "IL": "Providing Intelligence Information"
+  "DK": "إرسال مساعدة عاجلة للعراق",
+  "AT": "توفير مساعدات لحكومة العراق",
+  "IE": "توفير مساعدات لحكومة العراق",
+  "JP": "توفير مساعدات لحكومة العراق",
+  "LU": "إرسال مساعدات إنسانسية للعشب العراقي",
+  "PL": "إرسال مساعدات للاجئين العراقيين",
+  "SK": "إرسال مساعدات للاجئين العراقيين",
+  "KR": "إرسال مساعدات للاجئين العراقيين",
+  "SE": "توفير مساعدات لحكومة العراق",
+  "SZ": "توفير مساعدات لحكومة العراق",
+  "NZ": "توفير مساعدات لحكومة العراق",        
+  "IL": "توفير معلومات استخباراتية"
 }
 
 $(function(){
   new jvm.Map({
     onRegionTipShow: function(event, label, code) {
       if (fighting[code] != undefined){
-        console.log(label.html());
         label.html(countries_ar[code]+": <br />"+fighting_text[code]);               
       }else{
         label.style.visibility = "hidden";             

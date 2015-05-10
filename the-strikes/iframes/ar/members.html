@@ -6,10 +6,26 @@
     <script src="js/contributors.js"></script>
 
     <link rel="stylesheet" media="all" href="../../css/jquery-jvectormap.css">
+    <link rel="stylesheet" media="all" href="css/members.css">
   </head>
   <body>
     <div id="fighting_map"></div>
 
     <div id="support_map"></div>
+
+    <ul dir="rtl" class="legends">
+      <li id="L-contributor-1"><span class="region-1"></span>تدخل في العراق وسوريا.</li>
+      <li id="L-contributor-2"><span class="region-2"></span>تدخل في العراق فقط.</li>
+      <li id="L-contributor-3"><span class="region-3"></span>تدخل في سوريا فقط.</li>
+    </ul>
+
+    <div dir="" class="switch-maps">
+      <label>
+          <input type="radio" name="map" onclick="fighting_map()" value="fighting_map" checked=true>تدخل قتالي
+      </label>
+      <label>
+          <input type="radio" name="map" onclick="support_map()" value="support_map">تقديم المعونات
+      </label>
+  </div>
   </body>
 </html>
