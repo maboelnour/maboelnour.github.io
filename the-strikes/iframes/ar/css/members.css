@@ -1,7 +1,6 @@
 .legends {
-  position: absolute;
-  bottom: 15px;
-  left: 550px;
+  position: relative;
+  bottom: 100px;
   list-style-type: none;
   text-align: right;
 }
