@@ -19,6 +19,53 @@ function fighting_map(){
     }
   };
 
+var countries_ar = {
+  "US": "الولايات المتحدة",
+  "CA": "كندا",
+  "JO": "الأردن",
+  "MA": "المغرب",
+  "UK": "المملكة المتحدة",
+  "AU": "أستراليا",
+  "BE": "بلجيكا",
+  "FR": "فرنسا",
+  "DE": "ألمانيا",
+  "IT": "إيطاليا",
+  "NL": "هولندا",
+  "NO": "النرويج",
+  "PT": "البرتغال",
+  "ES": "اسبانيا",
+  "TR": "تركيا",
+  "BHR": "البحرين",
+  "QA": "قطر",
+  "SA": "السعودية",
+  "AE": "الإمارات",
+  "AL": "ألبانيا",
+  "BA": "البوسنة والهرسك",
+  "BG": "بلغاريا",
+  "HR": "كرواتيا",
+  "CZ": "التشيك",
+  "EE": "استونيا",
+  "GR": "اليونان",
+  "HU": "المجر",
+  "KW": "الكويت",
+  "LB": "لبنان",
+  "RU": "روسيا",
+  "SGP": "سنغافورة",
+  "DK": "الدنمارك",
+  "AT": "النمسا",
+  "IE": "ايرلندا",
+  "JP": "اليابان",
+  "LU": "لوكسمبورج",
+  "PL": "بولندا",
+  "SK": "سلوفاكيا",
+  "KR": "كوريا الجنوبية",
+  "SE": "السويد",
+  "SZ": "سويسرا",
+  "NZ": "نيوزلاند",
+  "IL": "اسرائيل"
+
+
+}
 var fighting = { // both: 1, iraq:2, syria: 3
   "US": 1,
   "CA": 1,
@@ -121,7 +168,8 @@ $(function(){
   new jvm.Map({
     onRegionTipShow: function(event, label, code) {
       if (fighting[code] != undefined){
-        label.html(label.html()+": <br />"+fighting_text[code]);               
+        console.log(label.html());
+        label.html(countries_ar[code]+": <br />"+fighting_text[code]);               
       }else{
         label.style.visibility = "hidden";             
       };
@@ -154,7 +202,7 @@ $(function(){
   new jvm.Map({
     onRegionTipShow: function(event, label, code) {
       if (support[code] != undefined){
-        label.html(label.html()+": <br />"+support_text[code]);                
+        label.html(countries_ar[code]+": <br />"+support_text[code]);                
       }else{
         label.style.visibility = "hidden";             
       };
