@@ -1,0 +1,59 @@
+.legends {
+  position: absolute;
+  bottom: 15px;
+  left: 1100px;
+  list-style-type: none;
+  text-align: right;
+}
+
+.legends li {
+  line-height: 20px;
+}
+
+.legends li span {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ccc;
+  background-color: #666;
+  margin: 0 5px 0 0;
+  position: relative;
+  top: 3px;
+}
+
+.legends li .region-1 {
+  background-color: #ebab73;
+  margin: 0 10px;
+}
+
+.legends li .region-2 {
+  background-color: #60b160;
+  margin: 0 10px;
+}
+
+.legends li .region-3 {
+  background-color: #5793bf;
+  margin: 0 10px;  
+}
+
+#fighting_map,
+#support_map {
+}
+
+.switch-maps {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  text-align: left;
+  color: #000;
+}
+
+.switch-maps label {
+  vertical-align: left;
+  float: left;
+  clear: both;
+}
+
+.switch-maps input {
+  margin: 0 10px;
+}
