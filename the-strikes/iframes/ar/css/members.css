@@ -1,3 +1,6 @@
+.jvectormap-tip{
+  direction: rtl;
+}
 .legends {
   position: relative;
   bottom: 100px;

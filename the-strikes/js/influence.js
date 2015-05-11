@@ -1,3 +1,9 @@
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}
+
 function changeImage(a) {
   map = document.getElementById("inf-map")
   if(map.src != "./maps/inf-maps/"+maps_index[a]+".png"){
