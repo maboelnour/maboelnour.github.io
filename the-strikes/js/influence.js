@@ -1,15 +1,18 @@
-function preloadImage(url)
-{
-    var img=new Image();
-    img.src=url;
+function preloadImage(url){
+  var img=new Image();
+  img.src=url;
 }
 
 function changeImage(a) {
-  map = document.getElementById("inf-map")
-  if(map.src != "./maps/inf-maps/"+maps_index[a]+".png"){
-    map.src= "./maps/inf-maps/"+maps_index[a]+".png";
+  if(maps_index[a] !== undefined){
+    map = document.getElementById("inf-map")
+    if(map.src != "./maps/inf-maps/"+maps_index[a]+".png"){
+      map.src= "./maps/inf-maps/"+maps_index[a]+".png";
+    }
   }
+
 }
+
 
 window.onload = function() {
   cartodb.createVis('cartodb-inf-map', ' https://maboelnour.cartodb.com/api/v2/viz/8c763a06-dde4-11e4-a22c-0e853d047bba/viz.json', {scrollwheel: 'disabled'}).done(function(vis, layers) {
@@ -50,4 +53,15 @@ window.onload = function() {
   .error(function(err) {
     alert(err);
   });
+}
+
+var maps = []
+for (var map in maps_index) {
+  if(maps.indexOf(maps_index[map]) == -1){
+    maps.push(maps_index[map]);
+  }
+}
+for (var i in maps) {
+  console.log("preloading: "+maps[i]+".png");
+  preloadImage("./maps/inf-maps/"+maps[i]+".png")
 }
