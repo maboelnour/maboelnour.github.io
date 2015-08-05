@@ -11,7 +11,7 @@ var locations = [
   {
     "name": "Eshra",
     "company": "GISTIC",
-    "team" : "Front-end Team",
+    "team" : "Research Software Engineer",
     "location": {
       "lat": 21.492510,
       "lng": 39.896168
