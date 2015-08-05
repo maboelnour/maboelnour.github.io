@@ -13,8 +13,8 @@ var locations = [
     "company": "GISTIC",
     "team" : "Front-end Team",
     "location": {
-      "lat": 22.422510,
-      "lng": 40.826168
+      "lat": 21.492510,
+      "lng": 39.896168
     }
   }
 ]
