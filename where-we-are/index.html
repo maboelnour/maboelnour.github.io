@@ -43,7 +43,7 @@
         });
 
         var infowindow = new google.maps.InfoWindow({
-            content: (location["name"]+ " - " + location["company"] + "<br />" + location["team"])
+            content: (location["name"]+ " - " + location["company"] + "<br />Team: " + location["team"])
         });
 
         google.maps.event.addListener(marker, 'click', function() {
