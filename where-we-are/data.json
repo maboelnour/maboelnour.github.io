@@ -2,7 +2,7 @@ var locations = [
   {
     "name": "Aboelnour",
     "company": "GISTIC",
-    "team" : "Bid Data Engineering & Analytics",
+    "team" : "Big Data Engineering & Analytics",
     "location": {
       "lat": 21.422510,
       "lng": 39.826168
