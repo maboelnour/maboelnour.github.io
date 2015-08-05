@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Where we reached?</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="./data.json"></script>
+
+    <script>
+    
+      // In the following example, markers appear when the user clicks on the map.
+      // Each marker is labeled with a single alphabetical character.
+
+      function initialize() {
+        var mecca = { lat: 21.422510, lng: 39.826168 };
+        var map = new google.maps.Map(document.getElementById('map-canvas'), {
+          zoom: 2,
+          center: mecca
+        });
+
+        for(var i = 0; i < locations.length; i++){
+          var obj = locations[i];
+          addMarker(locations[i], map);
+        }
+      }
+
+      // Adds a marker to the map.
+      function addMarker(location, map) {
+        // Add the marker at the clicked location, and add the next-available label
+        // from the array of alphabetical characters.
+        var marker = new google.maps.Marker({
+          position: location["location"],
+          // label: (location["name"]+ " - " + location["company"]),
+          map: map
+        });
+
+        var infowindow = new google.maps.InfoWindow({
+            content: (location["name"]+ " - " + location["company"] + "<br />" + location["team"])
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>
