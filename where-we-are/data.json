@@ -16,5 +16,14 @@ var locations = [
       "lat": 21.492510,
       "lng": 39.896168
     }
+  },
+  {
+    "name": "Meshry",
+    "company": "Alexandria University",
+    "team" : "Computer Vision -- Distributed Computing",
+    "location": {
+      "lat": 31.1989559,
+      "lng": 29.9317009
+    }
   }
 ]
