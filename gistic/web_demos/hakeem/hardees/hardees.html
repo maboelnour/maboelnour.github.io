@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app="hardees">
+  <head>
+   <script type="text/javascript" src=" http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../angular.min.js"></script>
+    <script type="text/javascript" src="hardees.json"></script>
+    <script type="text/javascript" src="hardeesCtrl.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+    <title></title>
+  </head>
+  <body>
+
+   <div class="container">
+        <div ng-controller="hardeesCtrl" id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                      <div class="col-sm-3" ng-repeat-start="meal in meals">
+                          <div class="col-item">
+                              <div class="photo">
+                                  <img ng-src={{meal.images_urls}} class="img-responsive" alt="a" />
+                              </div>
+                              <div class="info">
+                                  <div class="row">
+                                      <div class="price col-md-11">
+                                          <h5>
+                                              {{meal.title}}</h5>
+                                      </div>
+                                  </div>
+                                  <div class="separator clear-left">
+                                      <p class="btn-add">
+                                          <i class="fa fa-shopping-cart"></i>See at <a href={{meal.meal_url}} class="hidden-sm">Hardees.com</a></p>
+                                      <p class=""></p>
+                                  </div>
+                                  <div class="clearfix">
+                                  </div>
+                              </div>
+                          </div>
+                      </div> 
+                    <div class="clearfix row-gab" ng-if="$index%4==3"></div>
+                    <div ng-repeat-end=""></div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>
