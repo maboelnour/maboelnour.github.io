@@ -16,7 +16,18 @@ published: true
 
 هنا هي "شجرة الكرز" وهو اسم هذه المساحة. الإسم قد استوحيته من قصيدة لإدوارد توماس Edward Thomas بنفس الإسم The Cherry Trees   
 
-> The cherry trees bend over and are shedding,
-On the old road where all that passed are dead,
-Their petals, strewing the grass as for a wedding
-This early May morn when there is none to wed.
+> The cherry trees bend over and are shedding,  
+On the old road where all that passed are dead,  
+Their petals, strewing the grass as for a wedding  
+This early May morn when there is none to wed.  
+
+ادوارد توماس من شعراء فترة الحرب العالمية الأولى، وكان مولعا بتوصيف الريف الإنجليزي. شجرة الكرز عنده هي رمز للحياة الوفيرة والجمال، ومشهد تساقط أوراقها كما يعزز مفهوم الجمال والحياة فإنه يعزز أيضا أن الحياة تنقضي لابد من يوم يأتي وقد سقطت كل تلك الأوراق الباهرة ولم يبق إلا الأغصان اليابسة
+وكل من مر من تحت شجرة الكرز وشاهد جمال "تساقط" أوراقها قد سقط أيضا من تعداد الأحياء، أهلكته الحياة كغيره. كما كانت الأفراح تقام تحت شجرة الكرز العملاقة فإن في تلك الأيام لا يقام فيها أي أفراح فتلك سنة الحياة
+
+من الممكن ان تقرأ شرح القصيدة بالأنجليزية [من هنا](https://movehimintothesun.wordpress.com/2011/04/13/the-cherry-trees-edward-thomas/)
+
+وفي الثقافة التقليدية اليابانية، فإن شجرة الكرز لا تظل مزهرة طول العام! هي تزهر في الربيع ولما تزهر فإن جمالها يطغى على كل شيء حولها، لذا كما كانت رمزا للجمال والحياة الوفيرة فهي رمز أيضا للفناء والتقلب وربطها اليابانيون كرمز لتقبل أقدارهم ومصائرهم المقدرة في تلك الحياة بسهولة ويسر
+
+
+
+![]({{site.baseurl}}/https://upload.wikimedia.org/wikipedia/commons/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg)
