@@ -30,4 +30,8 @@ This early May morn when there is none to wed.
 وفي الثقافة التقليدية اليابانية، فإن شجرة الكرز لا تظل مزهرة طول العام! هي تزهر في الربيع وإذا أزهرت فإن جمالها يطغى على كل شيء حولها، لذا كما كانت رمزا للجمال والحياة الوفيرة فهي رمز أيضا للفناء وتقلب الدهر وربطها اليابانيون كرمز لتقبل أقدارهم ومصائرهم المقدرة في تلك الحياة بسهولة ويسر
 
 
-![Sakura_and_Moss_Pink_-_桜(さくら)と芝桜(しばざくら).jpg]({{site.baseurl}}/_posts/Sakura_and_Moss_Pink_-_桜(さくら)と芝桜(しばざくら).jpg)
+![Sakura_and_Moss_Pink.jpg](https://raw.githubusercontent.com/maboelnour/maboelnour.github.io/master/images/Sakura_and_Moss_Pink.jpg)
+
+![Sakura_of_Fukushima.jpg](https://raw.githubusercontent.com/maboelnour/maboelnour.github.io/master/images/Sakura_of_Fukushima.jpg)
+
+
