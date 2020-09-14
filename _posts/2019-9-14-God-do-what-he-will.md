@@ -6,8 +6,8 @@ published: true
 comments: true
 ---
 
-استوقني عنوان لتلاوة لسورة إبراهيم كان ال thumbnail
+استوقني عنوان لتلاوة لسورة إبراهيم على اليوتيوب كان ال thumbnail بتاعه هو قول الله "يفعل الله ما يشاء" ب
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI1MjgxNDksLTE3MjgyOTgzMjAsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM0NDA1NTcwOCwtMTcyODI5ODMyMCw3Mz
+A5OTgxMTZdfQ==
 -->
