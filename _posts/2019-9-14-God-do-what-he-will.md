@@ -6,7 +6,8 @@ published: true
 comments: true
 ---
 
-
+استوقني عنوان لتلاوة لسورة إبراهيم كان ال thumbnail
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjgyOTgzMjAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxNDI1MjgxNDksLTE3MjgyOTgzMjAsNz
+MwOTk4MTE2XX0=
 -->
