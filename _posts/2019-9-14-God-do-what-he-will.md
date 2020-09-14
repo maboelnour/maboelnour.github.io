@@ -1,7 +1,12 @@
 
+---
+layout: post
+title: ويفعل الله ما يشاء
+published: true
+comments: true
+---
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3MjgyOTgzMjAsNzMwOTk4MTE2XX0=
 -->
