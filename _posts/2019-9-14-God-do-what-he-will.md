@@ -24,13 +24,14 @@ comments: true
 ويضل الله الظالمين ويفعل الله ما يشاء
 
 أظهر الله لفظ الجلالة `الله` في الثلاث جمل حتى تكون مستقلة بذاتها ويصلح انتزاعها كمثل:
-1- يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة  
-2- يضل الله الظالمين  
-3- يفعل الله ما يشاء  
+
+ 1. يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة  
+ 2. يضل الله الظالمين  
+ 3. يفعل الله ما يشاء  
 
 وده شيء غاية في الجمال.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg2NTE3NjIsLTY0NTU4NDk0NiwxNz
+eyJoaXN0b3J5IjpbLTE3NTQ2MjU3NDksLTY0NTU4NDk0NiwxNz
 k0MDI2Mzg0LC0xOTEyMzMzNzYwLDExOTg5NjcyNjMsMTY1NDU3
 ODEyOCwxMjM1OTAyMDA1XX0=
 -->
