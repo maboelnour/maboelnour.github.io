@@ -19,10 +19,10 @@ comments: true
 
 
 أي أن قول الله تعالى:
-```
-يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة 
+
+> يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة 
 ويضل الله الظالمين ويفعل الله ما يشاء
-```
+
 أظهر الله لفظ الجلالة `الله` في الثلاث جمل حتى تكون مستقلة بذاتها ويصلح انتزاعها كمثل:
 1- يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة
 2- يضل الله الظالمين
@@ -30,7 +30,7 @@ comments: true
 
 وده شيء غاية في الجمال.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc2NDE4MDYsMTc5NDAyNjM4NCwtMT
-kxMjMzMzc2MCwxMTk4OTY3MjYzLDE2NTQ1NzgxMjgsMTIzNTkw
-MjAwNV19
+eyJoaXN0b3J5IjpbLTY0NTU4NDk0NiwxNzk0MDI2Mzg0LC0xOT
+EyMzMzNzYwLDExOTg5NjcyNjMsMTY1NDU3ODEyOCwxMjM1OTAy
+MDA1XX0=
 -->
