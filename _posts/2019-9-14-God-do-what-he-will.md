@@ -20,9 +20,14 @@ comments: true
 ```
 
 أي أن قول الله تعالى:
-```_يثبت الله_ الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة ويضل الله الظالمين ويفعل الله ما يشاء
 ```
+يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة
+ويضل الله الظالمين ويفعل الله ما يشاء
+```
+أظهر الله لفظ الجلالة `الله` في الثلاث جمل حتى تكون مستقلة بذاتها ويصلح انتزاعها كمثل
+1- يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة
+2- ي
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODkxMjMwODEsLTE5MTIzMzM3NjAsMT
-E5ODk2NzI2MywxNjU0NTc4MTI4LDEyMzU5MDIwMDVdfQ==
+eyJoaXN0b3J5IjpbMjA1MTE4OTQwNCwtMTkxMjMzMzc2MCwxMT
+k4OTY3MjYzLDE2NTQ1NzgxMjgsMTIzNTkwMjAwNV19
 -->
