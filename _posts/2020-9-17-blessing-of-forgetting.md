@@ -1,7 +1,7 @@
 ---
 layout: post
 title: نعمة النسيان
-published: true
+published: false
 comments: true
 ---
 
@@ -12,5 +12,5 @@ comments: true
 
 زمان كنت ببص على النسيان على أنه شيء سيء، جميل إن الواحد يستحضر كل حاجة شافها أو قراها
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ2MzExNDEsLTgyNjczNzc1Ml19
+eyJoaXN0b3J5IjpbLTU3MzUyMDMzOCwtODI2NzM3NzUyXX0=
 -->
