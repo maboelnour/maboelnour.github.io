@@ -5,7 +5,8 @@ published: true
 comments: true
 ---
 
-ي
+في لحظة ما حسبت اني حابب أسمع حاجة ما على يوتيوب، لسبب إني فاكر إن كان فيه حتة في الحاجة دي بتبسطني لكن إيه هو بالضبط، وكان بيبسطني إزاي ... كنت ناسي خالص
+رحت عاليوتيوب وجبت الفيديو
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTA4NzQsLTgyNjczNzc1Ml19
+eyJoaXN0b3J5IjpbLTIxMjg5ODg4OTIsLTgyNjczNzc1Ml19
 -->
