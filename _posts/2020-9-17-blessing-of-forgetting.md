@@ -11,6 +11,9 @@ comments: true
 اللي يعرفني يعرف إني شخص بنسى، معرفش أسباب ده إيه، وبالرغم من إني بنسى لكن ساعات بفتكر أحداث قديمة جدا وبيرافقها نفس شعور وقتها -أو يمكن عقلي وذاكرتي بتخدعني-
 
 زمان كنت ببص على النسيان على أنه شيء سيء، جميل إن الواحد يستحضر كل حاجة شافها أو قراها
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIzMzA2NzYsLTgyNjczNzc1Ml19
+eyJoaXN0b3J5IjpbMTUyMTUwMTA5NiwtMTUwMjMzMDY3NiwtOD
+I2NzM3NzUyXX0=
 -->
