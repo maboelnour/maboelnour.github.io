@@ -1,7 +1,7 @@
 ---
 layout: post
 title: هل رأيت بؤسا قط
-published: true
+published: false
 comments: true
 ---
 
@@ -19,6 +19,6 @@ The courageous fallen!
 The anguished fallen!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc1Nzk5MTYsMTU1NzM1MTkwLDkwMD
-A2OTU2Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM2NTE2NTc4OSwtMTg5NzU3OTkxNiwxNT
+U3MzUxOTAsOTAwMDY5NTYyLDczMDk5ODExNl19
 -->
