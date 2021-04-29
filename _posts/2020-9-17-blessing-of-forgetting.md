@@ -12,8 +12,9 @@ comments: true
 
 زمان كنت ببص على النسيان على أنه شيء سيء، جميل إن الواحد يستحضر كل حاجة شافها أو قراها
 
-
+تذكر من بعد نسيان
+أفئدتهم هواء
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDQ5MDcwMywxNTIxNTAxMDk2LC0xNT
+eyJoaXN0b3J5IjpbMTQzNDA3NjAxOCwxNTIxNTAxMDk2LC0xNT
 AyMzMwNjc2LC04MjY3Mzc3NTJdfQ==
 -->
